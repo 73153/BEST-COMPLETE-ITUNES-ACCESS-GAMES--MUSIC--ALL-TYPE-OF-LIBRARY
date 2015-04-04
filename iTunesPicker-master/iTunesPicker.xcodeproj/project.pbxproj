@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2E269418B2AA4000270C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2E269318B2AA4000270C57 /* Foundation.framework */; };
+		FF2E269618B2AA4000270C57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2E269518B2AA4000270C57 /* CoreGraphics.framework */; };
+		FF2E269818B2AA4000270C57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2E269718B2AA4000270C57 /* UIKit.framework */; };
+		FF2E269E18B2AA4000270C57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF2E269C18B2AA4000270C57 /* InfoPlist.strings */; };
+		FF2E26A018B2AA4000270C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2E269F18B2AA4000270C57 /* main.m */; };
+		FF2E26A418B2AA4000270C57 /* ITPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2E26A318B2AA4000270C57 /* ITPAppDelegate.m */; };
+		FF2E26AD18B2AA4000270C57 /* ITPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2E26AC18B2AA4000270C57 /* ITPViewController.m */; };
+		FF2E26AF18B2AA4000270C57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2E26AE18B2AA4000270C57 /* Images.xcassets */; };
+		FF3383BD193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3383BB193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.m */; };
+		FF3383BE193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3383BC193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.xib */; };
+		FF3383C4193CB9D100718FC0 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3383C1193CB9D100718FC0 /* ASValuePopUpView.m */; };
+		FF3383C5193CB9D100718FC0 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3383C3193CB9D100718FC0 /* ASValueTrackingSlider.m */; };
+		FF3383CA193CBA5300718FC0 /* ITPSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3383C8193CBA5300718FC0 /* ITPSliderCell.m */; };
+		FF3383CB193CBA5300718FC0 /* ITPSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3383C9193CBA5300718FC0 /* ITPSliderCell.xib */; };
+		FF3A6481190538F200003669 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3A6480190538F200003669 /* libz.dylib */; };
+		FF3A64831905391600003669 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3A64821905391600003669 /* AdSupport.framework */; };
+		FF3A648519053A1700003669 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3A648419053A1700003669 /* libsqlite3.0.dylib */; };
+		FF3A94AE18CFC03D00479E98 /* ITPCountryItemChartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A94AD18CFC03D00479E98 /* ITPCountryItemChartsViewController.m */; };
+		FF3A94B118CFC20000479E98 /* CountriesFlags36px.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3A94B018CFC20000479E98 /* CountriesFlags36px.xcassets */; };
+		FF3A94B618D261D900479E98 /* ITPMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A94B418D261D900479E98 /* ITPMenuTableViewController.m */; };
+		FF3A94B818D261D900479E98 /* ITPMenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3A94B518D261D900479E98 /* ITPMenuTableViewController.xib */; };
+		FF3A94BF18D6631E00479E98 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF3A94BC18D6631E00479E98 /* SVProgressHUD.bundle */; };
+		FF3A94C118D6631E00479E98 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A94BE18D6631E00479E98 /* SVProgressHUD.m */; };
+		FF3A94CA18DBA52E00479E98 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF3A94CD18DBA52E00479E98 /* Localizable.strings */; };
+		FF55685719291CE700EBB7DD /* ITPBookPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55685519291CE700EBB7DD /* ITPBookPickerTableViewCell.m */; };
+		FF55685819291CE700EBB7DD /* ITPBookPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF55685619291CE700EBB7DD /* ITPBookPickerTableViewCell.xib */; };
+		FF68CF311908608A0068A449 /* ITPSideRightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CF2F1908608A0068A449 /* ITPSideRightMenuViewController.m */; };
+		FF68CF321908608A0068A449 /* ITPSideRightMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF68CF301908608A0068A449 /* ITPSideRightMenuViewController.xib */; };
+		FF68CF35190864D90068A449 /* ITPSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CF34190864D90068A449 /* ITPSidePanelController.m */; };
+		FF68CF52190AA4260068A449 /* ITPAppPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CF4B190AA4260068A449 /* ITPAppPickerTableViewCell.m */; };
+		FF68CF53190AA4260068A449 /* ITPAppPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF68CF4C190AA4260068A449 /* ITPAppPickerTableViewCell.xib */; };
+		FF68CF54190AA4260068A449 /* ITPPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CF4E190AA4260068A449 /* ITPPickerTableViewController.m */; };
+		FF68CF55190AA4260068A449 /* ITPPickerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF68CF4F190AA4260068A449 /* ITPPickerTableViewController.xib */; };
+		FF68CF60190AA85B0068A449 /* ITPAppPickerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CF5E190AA85B0068A449 /* ITPAppPickerDetailViewController.m */; };
+		FF68CF61190AA85B0068A449 /* ITPAppPickerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF68CF5F190AA85B0068A449 /* ITPAppPickerDetailViewController.xib */; };
+		FF68CF69190ABC510068A449 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF68CF68190ABC510068A449 /* Main_iPhone.storyboard */; };
+		FF68CF6E190B1FF00068A449 /* ITPPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CF6D190B1FF00068A449 /* ITPPickerTableViewCell.m */; };
+		FF68CF71190D420F0068A449 /* ITPAudioPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68CF70190D420F0068A449 /* ITPAudioPickerTableViewCell.m */; };
+		FF68CF73190D439B0068A449 /* ITPAudioPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF68CF72190D439B0068A449 /* ITPAudioPickerTableViewCell.xib */; };
+		FF6CB492191E78570015661E /* ITPSideLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6CB490191E78570015661E /* ITPSideLeftMenuViewController.m */; };
+		FF6CB493191E78570015661E /* ITPSideLeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6CB491191E78570015661E /* ITPSideLeftMenuViewController.xib */; };
+		FF6CB495191E86B40015661E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6CB494191E86B40015661E /* iAd.framework */; };
+		FF6CB49C19200FA20015661E /* YHRoundBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6CB49B19200FA20015661E /* YHRoundBorderedButton.m */; };
+		FF76441919E0851300AF09B7 /* AppCornerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF76441819E0851300AF09B7 /* AppCornerKit.framework */; };
+		FF8B09361971C50F007E391F /* MSDynamicsDrawerStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B09321971C50F007E391F /* MSDynamicsDrawerStyler.m */; };
+		FF8B09371971C50F007E391F /* MSDynamicsDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B09351971C50F007E391F /* MSDynamicsDrawerViewController.m */; };
+		FF8B093D1972D640007E391F /* XHPaggingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B093A1972D640007E391F /* XHPaggingNavbar.m */; };
+		FF8B093E1972D640007E391F /* XHTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B093C1972D640007E391F /* XHTwitterPaggingViewer.m */; };
+		FF8B09421972EDE5007E391F /* FRDLivelyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B09411972EDE5007E391F /* FRDLivelyButton.m */; };
+		FF8B09461972F8D9007E391F /* ACPReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B09451972F8D9007E391F /* ACPReminder.m */; };
+		FF8B094F19747CDB007E391F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B094A19747CDB007E391F /* UIImage+ImageEffects.m */; };
+		FF8B095019747CDB007E391F /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B094C19747CDB007E391F /* UIImageView+LBBlurredImage.m */; };
+		FF8B095119747CDB007E391F /* MGSpotyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B094E19747CDB007E391F /* MGSpotyViewController.m */; };
+		FFC1E65D1991916500537A4C /* ChameleonStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E6561991916500537A4C /* ChameleonStatusBar.m */; };
+		FFC1E65E1991916500537A4C /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E6581991916500537A4C /* NSArray+Chameleon.m */; };
+		FFC1E65F1991916500537A4C /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E65A1991916500537A4C /* UIColor+Chameleon.m */; };
+		FFC1E6601991916500537A4C /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E65C1991916500537A4C /* UIViewController+Chameleon.m */; };
+		FFC1E666199423AF00537A4C /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E663199423AF00537A4C /* NSString+Morphing.m */; };
+		FFC1E667199423AF00537A4C /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E665199423AF00537A4C /* TOMSMorphingLabel.m */; };
+		FFC1E66B1994250300537A4C /* ITPMorphingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E6691994250300537A4C /* ITPMorphingTableViewCell.m */; };
+		FFC1E66C1994250300537A4C /* ITPMorphingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC1E66A1994250300537A4C /* ITPMorphingTableViewCell.xib */; };
+		FFC57774199FD90E00D5B27F /* ITPYouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC57772199FD90E00D5B27F /* ITPYouTubeViewController.m */; };
+		FFC57775199FD90E00D5B27F /* ITPYouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC57773199FD90E00D5B27F /* ITPYouTubeViewController.xib */; };
+		FFC9A28E19A88F8B007C896A /* ITPYouTubeVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC9A28C19A88F8B007C896A /* ITPYouTubeVideoCell.m */; };
+		FFC9A28F19A88F8B007C896A /* ITPYouTubeVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC9A28D19A88F8B007C896A /* ITPYouTubeVideoCell.xib */; };
+		FFC9A2AE19AA47C7007C896A /* AppCornerKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFC9A2AC19AA47C7007C896A /* AppCornerKitResources.bundle */; };
+		FFD2E6821916A04C00F9672D /* ITPVideoPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD2E67F1916A04C00F9672D /* ITPVideoPickerTableViewCell.m */; };
+		FFD2E6831916A04C00F9672D /* ITPVideoPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD2E6801916A04C00F9672D /* ITPVideoPickerTableViewCell.xib */; };
+		FFEE4D7D18B40D61001C7D54 /* ITPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEE4D7C18B40D61001C7D54 /* ITPViewController.xib */; };
+		FFEE4D8018B41BBE001C7D54 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE4D7F18B41BBE001C7D54 /* CoreData.framework */; };
+		FFEE4D8218B41BD4001C7D54 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE4D8118B41BD4001C7D54 /* CFNetwork.framework */; };
+		FFEE4D8418B41BF4001C7D54 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE4D8318B41BF4001C7D54 /* Security.framework */; };
+		FFEE4D8618B41BFB001C7D54 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE4D8518B41BFB001C7D54 /* MobileCoreServices.framework */; };
+		FFEE4D8818B565AB001C7D54 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE4D8718B565AB001C7D54 /* SystemConfiguration.framework */; };
+		FFEE4DCD18B6CB4E001C7D54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE4DCC18B6CB4E001C7D54 /* QuartzCore.framework */; };
+		FFF6CF211981AF3600059E98 /* ITPGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF201981AF3600059E98 /* ITPGraphic.m */; };
+		FFF6CF5A19883D6700059E98 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF4F19883D6700059E98 /* NSMutableArray+SWUtilityButtons.m */; };
+		FFF6CF5B19883D6700059E98 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF5119883D6700059E98 /* SWCellScrollView.m */; };
+		FFF6CF5C19883D6700059E98 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF5319883D6700059E98 /* SWLongPressGestureRecognizer.m */; };
+		FFF6CF5D19883D6800059E98 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF5519883D6700059E98 /* SWTableViewCell.m */; };
+		FFF6CF5E19883D6800059E98 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF5719883D6700059E98 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		FFF6CF5F19883D6800059E98 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF5919883D6700059E98 /* SWUtilityButtonView.m */; };
+		FFF6CF6319883D9500059E98 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF6219883D9500059E98 /* UIScrollView+EmptyDataSet.m */; };
+		FFF6CF67198D72F000059E98 /* TTUITableViewZoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6CF66198D72F000059E98 /* TTUITableViewZoomController.m */; };
+		FFF6F62B19B7CCE300B5DD64 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6F62A19B7CCE300B5DD64 /* SwipeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF2E269018B2AA4000270C57 /* iTunesPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2E269318B2AA4000270C57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF2E269518B2AA4000270C57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF2E269718B2AA4000270C57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF2E269B18B2AA4000270C57 /* iTunesPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesPicker-Info.plist"; sourceTree = "<group>"; };
+		FF2E269D18B2AA4000270C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF2E269F18B2AA4000270C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF2E26A118B2AA4000270C57 /* iTunesPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesPicker-Prefix.pch"; sourceTree = "<group>"; };
+		FF2E26A218B2AA4000270C57 /* ITPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITPAppDelegate.h; sourceTree = "<group>"; };
+		FF2E26A318B2AA4000270C57 /* ITPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITPAppDelegate.m; sourceTree = "<group>"; };
+		FF2E26AB18B2AA4000270C57 /* ITPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITPViewController.h; sourceTree = "<group>"; };
+		FF2E26AC18B2AA4000270C57 /* ITPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITPViewController.m; sourceTree = "<group>"; };
+		FF2E26AE18B2AA4000270C57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF2E26B518B2AA4000270C57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF3383BA193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPMusicVideoPickerTableViewCell.h; sourceTree = "<group>"; };
+		FF3383BB193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPMusicVideoPickerTableViewCell.m; sourceTree = "<group>"; };
+		FF3383BC193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPMusicVideoPickerTableViewCell.xib; sourceTree = "<group>"; };
+		FF3383C0193CB9D100718FC0 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		FF3383C1193CB9D100718FC0 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		FF3383C2193CB9D100718FC0 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		FF3383C3193CB9D100718FC0 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		FF3383C7193CBA5300718FC0 /* ITPSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPSliderCell.h; sourceTree = "<group>"; };
+		FF3383C8193CBA5300718FC0 /* ITPSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPSliderCell.m; sourceTree = "<group>"; };
+		FF3383C9193CBA5300718FC0 /* ITPSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPSliderCell.xib; sourceTree = "<group>"; };
+		FF3A6480190538F200003669 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FF3A64821905391600003669 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FF3A648419053A1700003669 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FF3A94AC18CFC03D00479E98 /* ITPCountryItemChartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPCountryItemChartsViewController.h; sourceTree = "<group>"; };
+		FF3A94AD18CFC03D00479E98 /* ITPCountryItemChartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPCountryItemChartsViewController.m; sourceTree = "<group>"; };
+		FF3A94B018CFC20000479E98 /* CountriesFlags36px.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CountriesFlags36px.xcassets; sourceTree = "<group>"; };
+		FF3A94B318D261D900479E98 /* ITPMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPMenuTableViewController.h; sourceTree = "<group>"; };
+		FF3A94B418D261D900479E98 /* ITPMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPMenuTableViewController.m; sourceTree = "<group>"; };
+		FF3A94B518D261D900479E98 /* ITPMenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPMenuTableViewController.xib; sourceTree = "<group>"; };
+		FF3A94BB18D6631E00479E98 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		FF3A94BC18D6631E00479E98 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FF3A94BD18D6631E00479E98 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		FF3A94BE18D6631E00479E98 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		FF3A94C518DBA2D100479E98 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF3A94CE18DBA53000479E98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF3A94CF18DBA53100479E98 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF55685419291CE700EBB7DD /* ITPBookPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPBookPickerTableViewCell.h; sourceTree = "<group>"; };
+		FF55685519291CE700EBB7DD /* ITPBookPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPBookPickerTableViewCell.m; sourceTree = "<group>"; };
+		FF55685619291CE700EBB7DD /* ITPBookPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPBookPickerTableViewCell.xib; sourceTree = "<group>"; };
+		FF68CF2E1908608A0068A449 /* ITPSideRightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPSideRightMenuViewController.h; sourceTree = "<group>"; };
+		FF68CF2F1908608A0068A449 /* ITPSideRightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPSideRightMenuViewController.m; sourceTree = "<group>"; };
+		FF68CF301908608A0068A449 /* ITPSideRightMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPSideRightMenuViewController.xib; sourceTree = "<group>"; };
+		FF68CF33190864D90068A449 /* ITPSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPSidePanelController.h; sourceTree = "<group>"; };
+		FF68CF34190864D90068A449 /* ITPSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPSidePanelController.m; sourceTree = "<group>"; };
+		FF68CF4A190AA4260068A449 /* ITPAppPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPAppPickerTableViewCell.h; sourceTree = "<group>"; };
+		FF68CF4B190AA4260068A449 /* ITPAppPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPAppPickerTableViewCell.m; sourceTree = "<group>"; };
+		FF68CF4C190AA4260068A449 /* ITPAppPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPAppPickerTableViewCell.xib; sourceTree = "<group>"; };
+		FF68CF4D190AA4260068A449 /* ITPPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPPickerTableViewController.h; sourceTree = "<group>"; };
+		FF68CF4E190AA4260068A449 /* ITPPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPPickerTableViewController.m; sourceTree = "<group>"; };
+		FF68CF4F190AA4260068A449 /* ITPPickerTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPPickerTableViewController.xib; sourceTree = "<group>"; };
+		FF68CF58190AA57C0068A449 /* ITPPickerTableViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPPickerTableViewControllerDelegate.h; sourceTree = "<group>"; };
+		FF68CF5D190AA85B0068A449 /* ITPAppPickerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITPAppPickerDetailViewController.h; path = iTunesPicker/ITPAppPickerDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		FF68CF5E190AA85B0068A449 /* ITPAppPickerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ITPAppPickerDetailViewController.m; path = iTunesPicker/ITPAppPickerDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		FF68CF5F190AA85B0068A449 /* ITPAppPickerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ITPAppPickerDetailViewController.xib; path = iTunesPicker/ITPAppPickerDetailViewController.xib; sourceTree = SOURCE_ROOT; };
+		FF68CF68190ABC510068A449 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FF68CF6C190B1FF00068A449 /* ITPPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPPickerTableViewCell.h; sourceTree = "<group>"; };
+		FF68CF6D190B1FF00068A449 /* ITPPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPPickerTableViewCell.m; sourceTree = "<group>"; };
+		FF68CF6F190D420F0068A449 /* ITPAudioPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPAudioPickerTableViewCell.h; sourceTree = "<group>"; };
+		FF68CF70190D420F0068A449 /* ITPAudioPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPAudioPickerTableViewCell.m; sourceTree = "<group>"; };
+		FF68CF72190D439B0068A449 /* ITPAudioPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPAudioPickerTableViewCell.xib; sourceTree = "<group>"; };
+		FF6CB48E191E77F50015661E /* ITPSideMenuViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPSideMenuViewControllerDelegate.h; sourceTree = "<group>"; };
+		FF6CB48F191E78570015661E /* ITPSideLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPSideLeftMenuViewController.h; sourceTree = "<group>"; };
+		FF6CB490191E78570015661E /* ITPSideLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPSideLeftMenuViewController.m; sourceTree = "<group>"; };
+		FF6CB491191E78570015661E /* ITPSideLeftMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPSideLeftMenuViewController.xib; sourceTree = "<group>"; };
+		FF6CB494191E86B40015661E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FF6CB49A19200FA20015661E /* YHRoundBorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRoundBorderedButton.h; sourceTree = "<group>"; };
+		FF6CB49B19200FA20015661E /* YHRoundBorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRoundBorderedButton.m; sourceTree = "<group>"; };
+		FF76441819E0851300AF09B7 /* AppCornerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCornerKit.framework; path = External/AppCornerKit.framework; sourceTree = "<group>"; };
+		FF8B09311971C50F007E391F /* MSDynamicsDrawerStyler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDynamicsDrawerStyler.h; sourceTree = "<group>"; };
+		FF8B09321971C50F007E391F /* MSDynamicsDrawerStyler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDynamicsDrawerStyler.m; sourceTree = "<group>"; };
+		FF8B09331971C50F007E391F /* MSDynamicsDrawerViewController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSDynamicsDrawerViewController-Prefix.pch"; sourceTree = "<group>"; };
+		FF8B09341971C50F007E391F /* MSDynamicsDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDynamicsDrawerViewController.h; sourceTree = "<group>"; };
+		FF8B09351971C50F007E391F /* MSDynamicsDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDynamicsDrawerViewController.m; sourceTree = "<group>"; };
+		FF8B09391972D640007E391F /* XHPaggingNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPaggingNavbar.h; sourceTree = "<group>"; };
+		FF8B093A1972D640007E391F /* XHPaggingNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPaggingNavbar.m; sourceTree = "<group>"; };
+		FF8B093B1972D640007E391F /* XHTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTwitterPaggingViewer.h; sourceTree = "<group>"; };
+		FF8B093C1972D640007E391F /* XHTwitterPaggingViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewer.m; sourceTree = "<group>"; };
+		FF8B09401972EDE5007E391F /* FRDLivelyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRDLivelyButton.h; sourceTree = "<group>"; };
+		FF8B09411972EDE5007E391F /* FRDLivelyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDLivelyButton.m; sourceTree = "<group>"; };
+		FF8B09441972F8D9007E391F /* ACPReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPReminder.h; sourceTree = "<group>"; };
+		FF8B09451972F8D9007E391F /* ACPReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPReminder.m; sourceTree = "<group>"; };
+		FF8B094919747CDB007E391F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		FF8B094A19747CDB007E391F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		FF8B094B19747CDB007E391F /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		FF8B094C19747CDB007E391F /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		FF8B094D19747CDB007E391F /* MGSpotyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSpotyViewController.h; sourceTree = "<group>"; };
+		FF8B094E19747CDB007E391F /* MGSpotyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSpotyViewController.m; sourceTree = "<group>"; };
+		FFC1E6531991916500537A4C /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		FFC1E6541991916500537A4C /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		FFC1E6551991916500537A4C /* ChameleonStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonStatusBar.h; sourceTree = "<group>"; };
+		FFC1E6561991916500537A4C /* ChameleonStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonStatusBar.m; sourceTree = "<group>"; };
+		FFC1E6571991916500537A4C /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		FFC1E6581991916500537A4C /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		FFC1E6591991916500537A4C /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		FFC1E65A1991916500537A4C /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		FFC1E65B1991916500537A4C /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		FFC1E65C1991916500537A4C /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		FFC1E662199423AF00537A4C /* NSString+Morphing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Morphing.h"; sourceTree = "<group>"; };
+		FFC1E663199423AF00537A4C /* NSString+Morphing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Morphing.m"; sourceTree = "<group>"; };
+		FFC1E664199423AF00537A4C /* TOMSMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOMSMorphingLabel.h; sourceTree = "<group>"; };
+		FFC1E665199423AF00537A4C /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOMSMorphingLabel.m; sourceTree = "<group>"; };
+		FFC1E6681994250300537A4C /* ITPMorphingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPMorphingTableViewCell.h; sourceTree = "<group>"; };
+		FFC1E6691994250300537A4C /* ITPMorphingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPMorphingTableViewCell.m; sourceTree = "<group>"; };
+		FFC1E66A1994250300537A4C /* ITPMorphingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPMorphingTableViewCell.xib; sourceTree = "<group>"; };
+		FFC57771199FD90E00D5B27F /* ITPYouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPYouTubeViewController.h; sourceTree = "<group>"; };
+		FFC57772199FD90E00D5B27F /* ITPYouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPYouTubeViewController.m; sourceTree = "<group>"; };
+		FFC57773199FD90E00D5B27F /* ITPYouTubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPYouTubeViewController.xib; sourceTree = "<group>"; };
+		FFC9A28B19A88F8B007C896A /* ITPYouTubeVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPYouTubeVideoCell.h; sourceTree = "<group>"; };
+		FFC9A28C19A88F8B007C896A /* ITPYouTubeVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPYouTubeVideoCell.m; sourceTree = "<group>"; };
+		FFC9A28D19A88F8B007C896A /* ITPYouTubeVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPYouTubeVideoCell.xib; sourceTree = "<group>"; };
+		FFC9A2AC19AA47C7007C896A /* AppCornerKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AppCornerKitResources.bundle; path = External/AppCornerKitResources.bundle; sourceTree = "<group>"; };
+		FFD2E67F1916A04C00F9672D /* ITPVideoPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPVideoPickerTableViewCell.m; sourceTree = "<group>"; };
+		FFD2E6801916A04C00F9672D /* ITPVideoPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPVideoPickerTableViewCell.xib; sourceTree = "<group>"; };
+		FFD2E6811916A04C00F9672D /* ITPVideoPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPVideoPickerTableViewCell.h; sourceTree = "<group>"; };
+		FFEE4D7C18B40D61001C7D54 /* ITPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITPViewController.xib; sourceTree = "<group>"; };
+		FFEE4D7F18B41BBE001C7D54 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FFEE4D8118B41BD4001C7D54 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FFEE4D8318B41BF4001C7D54 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFEE4D8518B41BFB001C7D54 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FFEE4D8718B565AB001C7D54 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FFEE4DCC18B6CB4E001C7D54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FFF6CF1F1981AF3600059E98 /* ITPGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITPGraphic.h; sourceTree = "<group>"; };
+		FFF6CF201981AF3600059E98 /* ITPGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITPGraphic.m; sourceTree = "<group>"; };
+		FFF6CF4E19883D6700059E98 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		FFF6CF4F19883D6700059E98 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		FFF6CF5019883D6700059E98 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		FFF6CF5119883D6700059E98 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		FFF6CF5219883D6700059E98 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		FFF6CF5319883D6700059E98 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		FFF6CF5419883D6700059E98 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		FFF6CF5519883D6700059E98 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		FFF6CF5619883D6700059E98 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		FFF6CF5719883D6700059E98 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		FFF6CF5819883D6700059E98 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		FFF6CF5919883D6700059E98 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		FFF6CF6119883D9500059E98 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		FFF6CF6219883D9500059E98 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		FFF6CF65198D72F000059E98 /* TTUITableViewZoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUITableViewZoomController.h; sourceTree = "<group>"; };
+		FFF6CF66198D72F000059E98 /* TTUITableViewZoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUITableViewZoomController.m; sourceTree = "<group>"; };
+		FFF6F62919B7CCE300B5DD64 /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeView.h; path = External/SwipeView/SwipeView.h; sourceTree = SOURCE_ROOT; };
+		FFF6F62A19B7CCE300B5DD64 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeView.m; path = External/SwipeView/SwipeView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF2E268D18B2AA4000270C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6CB495191E86B40015661E /* iAd.framework in Frameworks */,
+				FF3A648519053A1700003669 /* libsqlite3.0.dylib in Frameworks */,
+				FF3A64831905391600003669 /* AdSupport.framework in Frameworks */,
+				FF3A6481190538F200003669 /* libz.dylib in Frameworks */,
+				FFEE4DCD18B6CB4E001C7D54 /* QuartzCore.framework in Frameworks */,
+				FFEE4D8818B565AB001C7D54 /* SystemConfiguration.framework in Frameworks */,
+				FFEE4D8618B41BFB001C7D54 /* MobileCoreServices.framework in Frameworks */,
+				FFEE4D8418B41BF4001C7D54 /* Security.framework in Frameworks */,
+				FFEE4D8218B41BD4001C7D54 /* CFNetwork.framework in Frameworks */,
+				FFEE4D8018B41BBE001C7D54 /* CoreData.framework in Frameworks */,
+				FF2E269618B2AA4000270C57 /* CoreGraphics.framework in Frameworks */,
+				FF2E269818B2AA4000270C57 /* UIKit.framework in Frameworks */,
+				FF76441919E0851300AF09B7 /* AppCornerKit.framework in Frameworks */,
+				FF2E269418B2AA4000270C57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF2E268718B2AA4000270C57 = {
+			isa = PBXGroup;
+			children = (
+				FF68CF46190AA4260068A449 /* iTunesPickerComponent */,
+				FF2E269918B2AA4000270C57 /* iTunesPickerApp */,
+				FF2E269218B2AA4000270C57 /* Frameworks */,
+				FF2E269118B2AA4000270C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF2E269118B2AA4000270C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2E269018B2AA4000270C57 /* iTunesPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2E269218B2AA4000270C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF76441819E0851300AF09B7 /* AppCornerKit.framework */,
+				FFC9A2AC19AA47C7007C896A /* AppCornerKitResources.bundle */,
+				FF6CB494191E86B40015661E /* iAd.framework */,
+				FF3A648419053A1700003669 /* libsqlite3.0.dylib */,
+				FF3A64821905391600003669 /* AdSupport.framework */,
+				FF3A6480190538F200003669 /* libz.dylib */,
+				FFEE4DCC18B6CB4E001C7D54 /* QuartzCore.framework */,
+				FFEE4D8718B565AB001C7D54 /* SystemConfiguration.framework */,
+				FFEE4D8518B41BFB001C7D54 /* MobileCoreServices.framework */,
+				FFEE4D8318B41BF4001C7D54 /* Security.framework */,
+				FFEE4D8118B41BD4001C7D54 /* CFNetwork.framework */,
+				FFEE4D7F18B41BBE001C7D54 /* CoreData.framework */,
+				FF2E269318B2AA4000270C57 /* Foundation.framework */,
+				FF2E269518B2AA4000270C57 /* CoreGraphics.framework */,
+				FF2E269718B2AA4000270C57 /* UIKit.framework */,
+				FF2E26B518B2AA4000270C57 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF2E269918B2AA4000270C57 /* iTunesPickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6CF1E1981AF0900059E98 /* Graphic */,
+				FF3A64651902DF0100003669 /* MainViewController */,
+				FF68CF56190AA44A0068A449 /* DetailsViewControllers */,
+				FF3A64681902DF5600003669 /* SupportViewController */,
+				FF2E26A218B2AA4000270C57 /* ITPAppDelegate.h */,
+				FF2E26A318B2AA4000270C57 /* ITPAppDelegate.m */,
+				FF68CF68190ABC510068A449 /* Main_iPhone.storyboard */,
+				FF3A94B018CFC20000479E98 /* CountriesFlags36px.xcassets */,
+				FF2E26AE18B2AA4000270C57 /* Images.xcassets */,
+				FFEE4DB118B6CB2D001C7D54 /* External */,
+				FF2E269A18B2AA4000270C57 /* Supporting Files */,
+			);
+			name = iTunesPickerApp;
+			path = iTunesPicker;
+			sourceTree = "<group>";
+		};
+		FF2E269A18B2AA4000270C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF2E269B18B2AA4000270C57 /* iTunesPicker-Info.plist */,
+				FF2E269C18B2AA4000270C57 /* InfoPlist.strings */,
+				FF2E269F18B2AA4000270C57 /* main.m */,
+				FF2E26A118B2AA4000270C57 /* iTunesPicker-Prefix.pch */,
+				FF3A94CD18DBA52E00479E98 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3383B9193BC5D200718FC0 /* MusicVideo */ = {
+			isa = PBXGroup;
+			children = (
+				FF3383BA193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.h */,
+				FF3383BB193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.m */,
+				FF3383BC193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.xib */,
+			);
+			name = MusicVideo;
+			sourceTree = "<group>";
+		};
+		FF3383BF193CB9D100718FC0 /* ASValueTrackingSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FF3383C0193CB9D100718FC0 /* ASValuePopUpView.h */,
+				FF3383C1193CB9D100718FC0 /* ASValuePopUpView.m */,
+				FF3383C2193CB9D100718FC0 /* ASValueTrackingSlider.h */,
+				FF3383C3193CB9D100718FC0 /* ASValueTrackingSlider.m */,
+			);
+			path = ASValueTrackingSlider;
+			sourceTree = "<group>";
+		};
+		FF3383C6193CBA3B00718FC0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF3383C7193CBA5300718FC0 /* ITPSliderCell.h */,
+				FF3383C8193CBA5300718FC0 /* ITPSliderCell.m */,
+				FF3383C9193CBA5300718FC0 /* ITPSliderCell.xib */,
+				FFC1E6681994250300537A4C /* ITPMorphingTableViewCell.h */,
+				FFC1E6691994250300537A4C /* ITPMorphingTableViewCell.m */,
+				FFC1E66A1994250300537A4C /* ITPMorphingTableViewCell.xib */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		FF3A64651902DF0100003669 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF2E26AB18B2AA4000270C57 /* ITPViewController.h */,
+				FF2E26AC18B2AA4000270C57 /* ITPViewController.m */,
+				FFEE4D7C18B40D61001C7D54 /* ITPViewController.xib */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		FF3A64681902DF5600003669 /* SupportViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FFC57770199FD8CC00D5B27F /* youtube */,
+				FF6CB498191E95A20015661E /* sidesmenu */,
+				FF6CB497191E95840015661E /* filters */,
+				FF6CB496191E95740015661E /* countries */,
+				FF68CF33190864D90068A449 /* ITPSidePanelController.h */,
+				FF68CF34190864D90068A449 /* ITPSidePanelController.m */,
+			);
+			name = SupportViewController;
+			sourceTree = "<group>";
+		};
+		FF3A94BA18D6631E00479E98 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A94BB18D6631E00479E98 /* SVProgressHUD-Prefix.pch */,
+				FF3A94BC18D6631E00479E98 /* SVProgressHUD.bundle */,
+				FF3A94BD18D6631E00479E98 /* SVProgressHUD.h */,
+				FF3A94BE18D6631E00479E98 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		FF68CF46190AA4260068A449 /* iTunesPickerComponent */ = {
+			isa = PBXGroup;
+			children = (
+				FF68CF58190AA57C0068A449 /* ITPPickerTableViewControllerDelegate.h */,
+				FF68CF4D190AA4260068A449 /* ITPPickerTableViewController.h */,
+				FF68CF4E190AA4260068A449 /* ITPPickerTableViewController.m */,
+				FF68CF4F190AA4260068A449 /* ITPPickerTableViewController.xib */,
+				FF68CF57190AA4610068A449 /* TableViewCells */,
+			);
+			path = iTunesPickerComponent;
+			sourceTree = SOURCE_ROOT;
+		};
+		FF68CF56190AA44A0068A449 /* DetailsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF68CF62190AA8E60068A449 /* App */,
+			);
+			name = DetailsViewControllers;
+			path = iTunesPickerComponent;
+			sourceTree = SOURCE_ROOT;
+		};
+		FF68CF57190AA4610068A449 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FF68CF6C190B1FF00068A449 /* ITPPickerTableViewCell.h */,
+				FF68CF6D190B1FF00068A449 /* ITPPickerTableViewCell.m */,
+				FF68CF59190AA7930068A449 /* App */,
+				FF68CF5B190AA7B20068A449 /* Book */,
+				FF68CF5C190AA7BA0068A449 /* Video */,
+				FF3383B9193BC5D200718FC0 /* MusicVideo */,
+				FF68CF5A190AA7A20068A449 /* Audio */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		FF68CF59190AA7930068A449 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FF68CF4A190AA4260068A449 /* ITPAppPickerTableViewCell.h */,
+				FF68CF4B190AA4260068A449 /* ITPAppPickerTableViewCell.m */,
+				FF68CF4C190AA4260068A449 /* ITPAppPickerTableViewCell.xib */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		FF68CF5A190AA7A20068A449 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FF68CF6F190D420F0068A449 /* ITPAudioPickerTableViewCell.h */,
+				FF68CF70190D420F0068A449 /* ITPAudioPickerTableViewCell.m */,
+				FF68CF72190D439B0068A449 /* ITPAudioPickerTableViewCell.xib */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		FF68CF5B190AA7B20068A449 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				FF55685419291CE700EBB7DD /* ITPBookPickerTableViewCell.h */,
+				FF55685519291CE700EBB7DD /* ITPBookPickerTableViewCell.m */,
+				FF55685619291CE700EBB7DD /* ITPBookPickerTableViewCell.xib */,
+			);
+			name = Book;
+			sourceTree = "<group>";
+		};
+		FF68CF5C190AA7BA0068A449 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				FFD2E6811916A04C00F9672D /* ITPVideoPickerTableViewCell.h */,
+				FFD2E67F1916A04C00F9672D /* ITPVideoPickerTableViewCell.m */,
+				FFD2E6801916A04C00F9672D /* ITPVideoPickerTableViewCell.xib */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		FF68CF62190AA8E60068A449 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FF68CF5D190AA85B0068A449 /* ITPAppPickerDetailViewController.h */,
+				FF68CF5E190AA85B0068A449 /* ITPAppPickerDetailViewController.m */,
+				FF68CF5F190AA85B0068A449 /* ITPAppPickerDetailViewController.xib */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		FF6CB496191E95740015661E /* countries */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A94AC18CFC03D00479E98 /* ITPCountryItemChartsViewController.h */,
+				FF3A94AD18CFC03D00479E98 /* ITPCountryItemChartsViewController.m */,
+			);
+			name = countries;
+			sourceTree = "<group>";
+		};
+		FF6CB497191E95840015661E /* filters */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A94B318D261D900479E98 /* ITPMenuTableViewController.h */,
+				FF3A94B418D261D900479E98 /* ITPMenuTableViewController.m */,
+				FF3A94B518D261D900479E98 /* ITPMenuTableViewController.xib */,
+			);
+			name = filters;
+			sourceTree = "<group>";
+		};
+		FF6CB498191E95A20015661E /* sidesmenu */ = {
+			isa = PBXGroup;
+			children = (
+				FF3383C6193CBA3B00718FC0 /* cells */,
+				FF6CB48E191E77F50015661E /* ITPSideMenuViewControllerDelegate.h */,
+				FF68CF2E1908608A0068A449 /* ITPSideRightMenuViewController.h */,
+				FF68CF2F1908608A0068A449 /* ITPSideRightMenuViewController.m */,
+				FF68CF301908608A0068A449 /* ITPSideRightMenuViewController.xib */,
+				FF6CB48F191E78570015661E /* ITPSideLeftMenuViewController.h */,
+				FF6CB490191E78570015661E /* ITPSideLeftMenuViewController.m */,
+				FF6CB491191E78570015661E /* ITPSideLeftMenuViewController.xib */,
+			);
+			name = sidesmenu;
+			sourceTree = "<group>";
+		};
+		FF6CB49919200FA20015661E /* YHRoundBorderedButton */ = {
+			isa = PBXGroup;
+			children = (
+				FF6CB49A19200FA20015661E /* YHRoundBorderedButton.h */,
+				FF6CB49B19200FA20015661E /* YHRoundBorderedButton.m */,
+			);
+			path = YHRoundBorderedButton;
+			sourceTree = "<group>";
+		};
+		FF8B09301971C50F007E391F /* MSDynamicsDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B09311971C50F007E391F /* MSDynamicsDrawerStyler.h */,
+				FF8B09321971C50F007E391F /* MSDynamicsDrawerStyler.m */,
+				FF8B09331971C50F007E391F /* MSDynamicsDrawerViewController-Prefix.pch */,
+				FF8B09341971C50F007E391F /* MSDynamicsDrawerViewController.h */,
+				FF8B09351971C50F007E391F /* MSDynamicsDrawerViewController.m */,
+			);
+			path = MSDynamicsDrawerViewController;
+			sourceTree = "<group>";
+		};
+		FF8B09381972D640007E391F /* XHTwitterPaggingViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B09391972D640007E391F /* XHPaggingNavbar.h */,
+				FF8B093A1972D640007E391F /* XHPaggingNavbar.m */,
+				FF8B093B1972D640007E391F /* XHTwitterPaggingViewer.h */,
+				FF8B093C1972D640007E391F /* XHTwitterPaggingViewer.m */,
+			);
+			path = XHTwitterPaggingViewer;
+			sourceTree = "<group>";
+		};
+		FF8B093F1972EDE5007E391F /* FRDLivelyButton */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B09401972EDE5007E391F /* FRDLivelyButton.h */,
+				FF8B09411972EDE5007E391F /* FRDLivelyButton.m */,
+			);
+			path = FRDLivelyButton;
+			sourceTree = "<group>";
+		};
+		FF8B09431972F8D9007E391F /* ACPReminder */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B09441972F8D9007E391F /* ACPReminder.h */,
+				FF8B09451972F8D9007E391F /* ACPReminder.m */,
+			);
+			path = ACPReminder;
+			sourceTree = "<group>";
+		};
+		FF8B094719747CDB007E391F /* MGSpotyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B094819747CDB007E391F /* ImageEffects */,
+				FF8B094D19747CDB007E391F /* MGSpotyViewController.h */,
+				FF8B094E19747CDB007E391F /* MGSpotyViewController.m */,
+			);
+			path = MGSpotyViewController;
+			sourceTree = "<group>";
+		};
+		FF8B094819747CDB007E391F /* ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B094919747CDB007E391F /* UIImage+ImageEffects.h */,
+				FF8B094A19747CDB007E391F /* UIImage+ImageEffects.m */,
+				FF8B094B19747CDB007E391F /* UIImageView+LBBlurredImage.h */,
+				FF8B094C19747CDB007E391F /* UIImageView+LBBlurredImage.m */,
+			);
+			path = ImageEffects;
+			sourceTree = "<group>";
+		};
+		FFC1E6521991916500537A4C /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1E6531991916500537A4C /* Chameleon.h */,
+				FFC1E6541991916500537A4C /* ChameleonMacros.h */,
+				FFC1E6551991916500537A4C /* ChameleonStatusBar.h */,
+				FFC1E6561991916500537A4C /* ChameleonStatusBar.m */,
+				FFC1E6571991916500537A4C /* NSArray+Chameleon.h */,
+				FFC1E6581991916500537A4C /* NSArray+Chameleon.m */,
+				FFC1E6591991916500537A4C /* UIColor+Chameleon.h */,
+				FFC1E65A1991916500537A4C /* UIColor+Chameleon.m */,
+				FFC1E65B1991916500537A4C /* UIViewController+Chameleon.h */,
+				FFC1E65C1991916500537A4C /* UIViewController+Chameleon.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		FFC1E661199423AF00537A4C /* TOMSMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1E662199423AF00537A4C /* NSString+Morphing.h */,
+				FFC1E663199423AF00537A4C /* NSString+Morphing.m */,
+				FFC1E664199423AF00537A4C /* TOMSMorphingLabel.h */,
+				FFC1E665199423AF00537A4C /* TOMSMorphingLabel.m */,
+			);
+			path = TOMSMorphingLabel;
+			sourceTree = "<group>";
+		};
+		FFC57770199FD8CC00D5B27F /* youtube */ = {
+			isa = PBXGroup;
+			children = (
+				FFC57771199FD90E00D5B27F /* ITPYouTubeViewController.h */,
+				FFC57772199FD90E00D5B27F /* ITPYouTubeViewController.m */,
+				FFC57773199FD90E00D5B27F /* ITPYouTubeViewController.xib */,
+				FFC9A28B19A88F8B007C896A /* ITPYouTubeVideoCell.h */,
+				FFC9A28C19A88F8B007C896A /* ITPYouTubeVideoCell.m */,
+				FFC9A28D19A88F8B007C896A /* ITPYouTubeVideoCell.xib */,
+			);
+			name = youtube;
+			sourceTree = "<group>";
+		};
+		FFEE4DB118B6CB2D001C7D54 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1E661199423AF00537A4C /* TOMSMorphingLabel */,
+				FFC1E6521991916500537A4C /* Chameleon */,
+				FFF6CF64198D72F000059E98 /* UITableViewZoomController */,
+				FFF6CF6019883D9500059E98 /* DZNEmptyDataSet */,
+				FFF6CF4D19883D6700059E98 /* SWTableViewCell */,
+				FF8B094719747CDB007E391F /* MGSpotyViewController */,
+				FF8B09431972F8D9007E391F /* ACPReminder */,
+				FF8B093F1972EDE5007E391F /* FRDLivelyButton */,
+				FF8B09381972D640007E391F /* XHTwitterPaggingViewer */,
+				FF8B09301971C50F007E391F /* MSDynamicsDrawerViewController */,
+				FF3383BF193CB9D100718FC0 /* ASValueTrackingSlider */,
+				FF6CB49919200FA20015661E /* YHRoundBorderedButton */,
+				FF3A94BA18D6631E00479E98 /* SVProgressHUD */,
+				FFEE4E1518BFF1E9001C7D54 /* SwipeView */,
+			);
+			path = External;
+			sourceTree = SOURCE_ROOT;
+		};
+		FFEE4E1518BFF1E9001C7D54 /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6F62919B7CCE300B5DD64 /* SwipeView.h */,
+				FFF6F62A19B7CCE300B5DD64 /* SwipeView.m */,
+			);
+			name = SwipeView;
+			path = "../../../../../Downloads/SwipeView-master/SwipeView";
+			sourceTree = "<group>";
+		};
+		FFF6CF1E1981AF0900059E98 /* Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6CF1F1981AF3600059E98 /* ITPGraphic.h */,
+				FFF6CF201981AF3600059E98 /* ITPGraphic.m */,
+			);
+			name = Graphic;
+			sourceTree = "<group>";
+		};
+		FFF6CF4D19883D6700059E98 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6CF4E19883D6700059E98 /* NSMutableArray+SWUtilityButtons.h */,
+				FFF6CF4F19883D6700059E98 /* NSMutableArray+SWUtilityButtons.m */,
+				FFF6CF5019883D6700059E98 /* SWCellScrollView.h */,
+				FFF6CF5119883D6700059E98 /* SWCellScrollView.m */,
+				FFF6CF5219883D6700059E98 /* SWLongPressGestureRecognizer.h */,
+				FFF6CF5319883D6700059E98 /* SWLongPressGestureRecognizer.m */,
+				FFF6CF5419883D6700059E98 /* SWTableViewCell.h */,
+				FFF6CF5519883D6700059E98 /* SWTableViewCell.m */,
+				FFF6CF5619883D6700059E98 /* SWUtilityButtonTapGestureRecognizer.h */,
+				FFF6CF5719883D6700059E98 /* SWUtilityButtonTapGestureRecognizer.m */,
+				FFF6CF5819883D6700059E98 /* SWUtilityButtonView.h */,
+				FFF6CF5919883D6700059E98 /* SWUtilityButtonView.m */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		FFF6CF6019883D9500059E98 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6CF6119883D9500059E98 /* UIScrollView+EmptyDataSet.h */,
+				FFF6CF6219883D9500059E98 /* UIScrollView+EmptyDataSet.m */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		FFF6CF64198D72F000059E98 /* UITableViewZoomController */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6CF65198D72F000059E98 /* TTUITableViewZoomController.h */,
+				FFF6CF66198D72F000059E98 /* TTUITableViewZoomController.m */,
+			);
+			path = UITableViewZoomController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF2E268F18B2AA4000270C57 /* iTunesPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2E26C518B2AA4000270C57 /* Build configuration list for PBXNativeTarget "iTunesPicker" */;
+			buildPhases = (
+				FF2E268C18B2AA4000270C57 /* Sources */,
+				FF2E268D18B2AA4000270C57 /* Frameworks */,
+				FF2E268E18B2AA4000270C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesPicker;
+			productName = iTunesPicker;
+			productReference = FF2E269018B2AA4000270C57 /* iTunesPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2E268818B2AA4000270C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ITP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = appcorner.it;
+				TargetAttributes = {
+					FF2E268F18B2AA4000270C57 = {
+						DevelopmentTeam = NK6NL95596;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FF2E268B18B2AA4000270C57 /* Build configuration list for PBXProject "iTunesPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = FF2E268718B2AA4000270C57;
+			productRefGroup = FF2E269118B2AA4000270C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF2E268F18B2AA4000270C57 /* iTunesPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF2E268E18B2AA4000270C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC9A2AE19AA47C7007C896A /* AppCornerKitResources.bundle in Resources */,
+				FF3A94B118CFC20000479E98 /* CountriesFlags36px.xcassets in Resources */,
+				FFC57775199FD90E00D5B27F /* ITPYouTubeViewController.xib in Resources */,
+				FF68CF53190AA4260068A449 /* ITPAppPickerTableViewCell.xib in Resources */,
+				FF2E26AF18B2AA4000270C57 /* Images.xcassets in Resources */,
+				FF3383BE193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.xib in Resources */,
+				FF68CF55190AA4260068A449 /* ITPPickerTableViewController.xib in Resources */,
+				FF68CF69190ABC510068A449 /* Main_iPhone.storyboard in Resources */,
+				FF55685819291CE700EBB7DD /* ITPBookPickerTableViewCell.xib in Resources */,
+				FF68CF61190AA85B0068A449 /* ITPAppPickerDetailViewController.xib in Resources */,
+				FF3A94BF18D6631E00479E98 /* SVProgressHUD.bundle in Resources */,
+				FFC9A28F19A88F8B007C896A /* ITPYouTubeVideoCell.xib in Resources */,
+				FFD2E6831916A04C00F9672D /* ITPVideoPickerTableViewCell.xib in Resources */,
+				FF6CB493191E78570015661E /* ITPSideLeftMenuViewController.xib in Resources */,
+				FF3A94B818D261D900479E98 /* ITPMenuTableViewController.xib in Resources */,
+				FF68CF321908608A0068A449 /* ITPSideRightMenuViewController.xib in Resources */,
+				FF68CF73190D439B0068A449 /* ITPAudioPickerTableViewCell.xib in Resources */,
+				FF3A94CA18DBA52E00479E98 /* Localizable.strings in Resources */,
+				FF2E269E18B2AA4000270C57 /* InfoPlist.strings in Resources */,
+				FFEE4D7D18B40D61001C7D54 /* ITPViewController.xib in Resources */,
+				FFC1E66C1994250300537A4C /* ITPMorphingTableViewCell.xib in Resources */,
+				FF3383CB193CBA5300718FC0 /* ITPSliderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2E268C18B2AA4000270C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A94B618D261D900479E98 /* ITPMenuTableViewController.m in Sources */,
+				FF8B093E1972D640007E391F /* XHTwitterPaggingViewer.m in Sources */,
+				FF3A94C118D6631E00479E98 /* SVProgressHUD.m in Sources */,
+				FFC57774199FD90E00D5B27F /* ITPYouTubeViewController.m in Sources */,
+				FF8B093D1972D640007E391F /* XHPaggingNavbar.m in Sources */,
+				FFD2E6821916A04C00F9672D /* ITPVideoPickerTableViewCell.m in Sources */,
+				FFC1E65E1991916500537A4C /* NSArray+Chameleon.m in Sources */,
+				FF8B095119747CDB007E391F /* MGSpotyViewController.m in Sources */,
+				FFF6CF5B19883D6700059E98 /* SWCellScrollView.m in Sources */,
+				FFC9A28E19A88F8B007C896A /* ITPYouTubeVideoCell.m in Sources */,
+				FF68CF60190AA85B0068A449 /* ITPAppPickerDetailViewController.m in Sources */,
+				FFF6CF5D19883D6800059E98 /* SWTableViewCell.m in Sources */,
+				FF68CF311908608A0068A449 /* ITPSideRightMenuViewController.m in Sources */,
+				FFC1E667199423AF00537A4C /* TOMSMorphingLabel.m in Sources */,
+				FFC1E65F1991916500537A4C /* UIColor+Chameleon.m in Sources */,
+				FF8B09461972F8D9007E391F /* ACPReminder.m in Sources */,
+				FFC1E666199423AF00537A4C /* NSString+Morphing.m in Sources */,
+				FF6CB49C19200FA20015661E /* YHRoundBorderedButton.m in Sources */,
+				FFF6CF67198D72F000059E98 /* TTUITableViewZoomController.m in Sources */,
+				FF2E26AD18B2AA4000270C57 /* ITPViewController.m in Sources */,
+				FFF6CF211981AF3600059E98 /* ITPGraphic.m in Sources */,
+				FFC1E65D1991916500537A4C /* ChameleonStatusBar.m in Sources */,
+				FF6CB492191E78570015661E /* ITPSideLeftMenuViewController.m in Sources */,
+				FF68CF52190AA4260068A449 /* ITPAppPickerTableViewCell.m in Sources */,
+				FF68CF71190D420F0068A449 /* ITPAudioPickerTableViewCell.m in Sources */,
+				FFF6CF5F19883D6800059E98 /* SWUtilityButtonView.m in Sources */,
+				FFC1E6601991916500537A4C /* UIViewController+Chameleon.m in Sources */,
+				FF3383C5193CB9D100718FC0 /* ASValueTrackingSlider.m in Sources */,
+				FF68CF54190AA4260068A449 /* ITPPickerTableViewController.m in Sources */,
+				FF8B09371971C50F007E391F /* MSDynamicsDrawerViewController.m in Sources */,
+				FF8B09361971C50F007E391F /* MSDynamicsDrawerStyler.m in Sources */,
+				FFC1E66B1994250300537A4C /* ITPMorphingTableViewCell.m in Sources */,
+				FF3383BD193BC61C00718FC0 /* ITPMusicVideoPickerTableViewCell.m in Sources */,
+				FFF6CF5A19883D6700059E98 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				FFF6CF5E19883D6800059E98 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				FFF6CF5C19883D6700059E98 /* SWLongPressGestureRecognizer.m in Sources */,
+				FF2E26A418B2AA4000270C57 /* ITPAppDelegate.m in Sources */,
+				FF3383C4193CB9D100718FC0 /* ASValuePopUpView.m in Sources */,
+				FFF6CF6319883D9500059E98 /* UIScrollView+EmptyDataSet.m in Sources */,
+				FF8B09421972EDE5007E391F /* FRDLivelyButton.m in Sources */,
+				FF68CF35190864D90068A449 /* ITPSidePanelController.m in Sources */,
+				FF55685719291CE700EBB7DD /* ITPBookPickerTableViewCell.m in Sources */,
+				FF3383CA193CBA5300718FC0 /* ITPSliderCell.m in Sources */,
+				FF8B094F19747CDB007E391F /* UIImage+ImageEffects.m in Sources */,
+				FF3A94AE18CFC03D00479E98 /* ITPCountryItemChartsViewController.m in Sources */,
+				FF2E26A018B2AA4000270C57 /* main.m in Sources */,
+				FFF6F62B19B7CCE300B5DD64 /* SwipeView.m in Sources */,
+				FF8B095019747CDB007E391F /* UIImageView+LBBlurredImage.m in Sources */,
+				FF68CF6E190B1FF00068A449 /* ITPPickerTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF2E269C18B2AA4000270C57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2E269D18B2AA4000270C57 /* en */,
+				FF3A94C518DBA2D100479E98 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF3A94CD18DBA52E00479E98 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3A94CE18DBA53000479E98 /* en */,
+				FF3A94CF18DBA53100479E98 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF2E26C318B2AA4000270C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		FF2E26C418B2AA4000270C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		FF2E26C618B2AA4000270C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesPicker/iTunesPicker-Prefix.pch";
+				INFOPLIST_FILE = "iTunesPicker/iTunesPicker-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AE557C8E-66A3-4398-AABA-9B1EC490EA1C";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF2E26C718B2AA4000270C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesPicker/iTunesPicker-Prefix.pch";
+				INFOPLIST_FILE = "iTunesPicker/iTunesPicker-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AE557C8E-66A3-4398-AABA-9B1EC490EA1C";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2E268B18B2AA4000270C57 /* Build configuration list for PBXProject "iTunesPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2E26C318B2AA4000270C57 /* Debug */,
+				FF2E26C418B2AA4000270C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2E26C518B2AA4000270C57 /* Build configuration list for PBXNativeTarget "iTunesPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2E26C618B2AA4000270C57 /* Debug */,
+				FF2E26C718B2AA4000270C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2E268818B2AA4000270C57 /* Project object */;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="YDX-U1-YNv">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="UWn-fl-74c">
+            <objects>
+                <viewController storyboardIdentifier="centerViewController" id="ciy-9W-DL5" customClass="ITPViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVg-2o-ti3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2125" y="25"/>
+        </scene>
+        <!--Side Right Menu View Controller-->
+        <scene sceneID="G8U-j5-IoX">
+            <objects>
+                <viewController storyboardIdentifier="rightViewController" id="lmp-zC-9Yt" customClass="ITPSideRightMenuViewController" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uHH-5z-0EY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2125" y="812"/>
+        </scene>
+        <!--Dynamics Drawer View Controller-->
+        <scene sceneID="pxg-Fd-cma">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="YDX-U1-YNv" customClass="MSDynamicsDrawerViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAy-Mq-l3Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1483" y="25"/>
+        </scene>
+        <!--Side Left Menu View Controller-->
+        <scene sceneID="rjJ-Rb-XyV">
+            <objects>
+                <viewController storyboardIdentifier="leftViewController" id="VBV-2d-YE7" customClass="ITPSideLeftMenuViewController" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DHr-WI-b7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2125" y="-785"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,315 @@
+/* 
+  Localizable.strings
+  iTunesPicker
+
+  Created by Denis Berton on 20/03/14.
+  Copyright (c) 2014 appcorner.it. All rights reserved.
+*/
+
+//notification
+"localNotificationsMessage"="Guarda le nuove classifiche iTunes nel mondo.";
+
+"error_title_waiting_load"="Attendere.. ";
+"error_message_waiting_load"="Caricamento della classifica globale in corso, attendere per proseguire";
+
+//preview fullscreen
+"viewer.button.close"="Chiudi";
+
+//right menu
+"menu.section.types"="";
+"menu.section.settings"="Impostazioni";
+"menu.selectcountries"="Aggiungi nazioni";
+"menu.changeusercountry"="Modifica la tua nazione";
+
+"type_1_0"="Musica";
+"type_2_0"="Film";
+"type_3_0"="Video musicali";
+"type_4_0"="Serie TV";
+"type_5_0"="Audiolibri";
+"type_6_0"="Libri";
+"type_7_0"="Podcast";
+"type_8_0"="Cortometraggi";
+"type_9_1"="App iOS";
+"type_9_2"="App iPad";
+"type_9_3"="App Mac";
+
+"slidercell.label"="Risultati";
+
+//left menu
+"menu.section.filters"="Classifiche";
+"menu.section.views"="Viste globali";
+"menu.discoverview" = "Scopri";
+"menu.globalrankingview" = "Classifica globale";
+"menu.pricedrops" = "App in sconto";
+
+//filter
+"filter.title.chart"="Seleziona la classifica";
+"filter.title.genre"="Seleziona il genere";
+
+
+//countries picker
+"countries.picker.title" = "Seleziona la tua nazione";
+
+//errors
+"error_title_item_not_in_user_country"="Errore in apertura iTunes Store";
+"error_message_item_not_in_user_country"="L'articolo selezionato non è disponibile nella tua nazione.";
+"error_nodata"="Nessun dato caricato";
+
+//buttons
+"button_cancel"="Annulla";
+
+//App
+"topfreeapplications"="Top app gratuite";
+"toppaidapplications"="Top app acquistate";
+"topgrossingapplications"="Top app redditizie";
+"newapplications"="Nuove app";
+"newfreeapplications"="Nuove app gratuite";
+"newpaidapplications"="Nuove app a pagamento";
+
+//App iPad
+"topfreeipadapplications"="Top app gratuite per iPad";
+"toppaidipadapplications"="Top app acquistate per iPad";
+"topgrossingipadapplications"="Top app redditizie per iPad";
+
+
+"0"="Tutti i generi";
+"6018"="Libri";
+"6000"="Economia";
+"6022"="Cataloghi";
+"6017"="Istruzione";
+"6016"="Intrattenimento";
+"6015"="Finanza";
+"6023"="Cibo e Bevande";
+"6014"="Giochi";
+"6013"="Salute e Benessere";
+"6012"="Mode e Tendenze";
+"6020"="Medicina";
+"6011"="Musica";
+"6010"="Navigazione";
+"6009"="Notizie";
+"6021"="Edicola";
+"6008"="Foto e Video";
+"6007"="Produttività";
+"6006"="Riferimento";
+"6005"="Social Network";
+"6004"="Sport";
+"6003"="Viaggi";
+"6002"="Utilità";
+"6001"="Previsioni del tempo";
+
+
+//App Mac
+"topmacapps"="Top app per Mac";
+"topfreemacapps"="Top app gratuite per Mac";
+"toppaidmacapps"="Top app a pagamento per Mac";
+"topgrossingmacapps"="Top app redditizie per Mac";
+
+"00000" = "Tutti i generi";
+"12001" = "Business";
+"12002" = "Sviluppatori";
+"12003" = "Istruzione";
+"12004" = "Intrattenimento";
+"12005" = "Finanza";
+"12006" = "Giochi";
+"12022" = "Grafica e design";
+"12007" = "Salute e benessere";
+"12008" = "Mode e tendenze";
+"12008" = "Medicina";
+"12011" = "Musica";
+"12012" = "News";
+"12013" = "Fotografia";
+"12014" = "Produttività";
+"12015" = "Riferimento";
+"12016" = "Social Network";
+"12017" = "Sport";
+"12018" = "Viaggi";
+"12019" = "Utility";
+"12020" = "Video";
+"12021" = "Meteorologia";
+
+
+"itppicker.tablecell.app.noratings"="Nessun voto per la versione corrente";
+"itppicker.tablecell.app.noratings.allversions"="Nessun voto per tutte le versioni";
+"itppicker.tablecell.app.label.allVersions"="tutte le versioni";
+"itppicker.tablecell.app.button.detail"=">";
+"itppicker.tablecell.app.pricedrop"="da %@ a %@";
+
+"itppicker.detail.app.button.purchase"="App Store";
+"itppicker.detail.app.label.developer"="Sviluppatore";
+"itppicker.detail.app.label.seller"="Rivenditore";
+"itppicker.detail.app.label.update"="Aggiornato al";
+"itppicker.detail.app.label.version"="Versione";
+"itppicker.detail.app.label.size"="Dimensione";
+"itppicker.detail.app.label.rating"="Classifica";
+"itppicker.detail.app.label.languages"="Linguaggi (codici ISO)";
+
+
+//Music
+"topalbums"="Top Albums";
+"topimixes"="Top iMixes";
+"topsongs"="Top Singoli";
+
+"00"="Tutti i generi";
+"20"="Alternativa";
+"29"="Cartoni";
+"2"="Blues";
+"1122"="Brasiliana";
+"4"="Musica per bambini";
+"1232"="Cinese";
+"22"="Cristiana & Gospel";
+"5"="Classica";
+"3"="Comedy";
+"6"="Country";
+"17"="Dance";
+"50000063"="Disney";
+"25"="Easy Listening";
+"7"="Elettronica";
+"28"="Enka";
+"50"="Fitness & Workout";
+"50000064"="Pop francese";
+"50000068"="Folk tedesco";
+"50000066"="Pop tedesco";
+"18"="Hip-Hop/Rap";
+"8"="Holiday";
+"1262"="Indiana";
+"53"="Strumentale";
+"27"="J-Pop";
+"11"="Jazz";
+"51"="K-Pop";
+"52"="Karaoke";
+"30"="Kayokyoku";
+"1243"="Coreana";
+"12"="Latino";
+"13"="New Age";
+"9"="Opera";
+"14"="Pop";
+"15"="R&B/Soul";
+"24"="Reggae";
+"21"="Rock";
+"10"="Singer/Songwriter";
+"16"="Colonne Sonore";
+"50000061"="Spoken Word";
+"23"="Vocal";
+"19"="World music";
+
+"trackExplicit" = "E";
+"preorder" = "Preordina";
+
+//Movie
+"topmovies"="Top Film";
+"topvideorentals"="Top Video Rentals";
+
+"000"="Tutti i generi";
+"4401"="Azione e avventura";
+"4434"="Africani";
+"4402"="Anime";
+"4431"="Bollywood";
+"4403"="Classici";
+"4404"="Commedia";
+"4422"="Concert Films";
+"4405"="Documentario";
+"4406"="Dramma";
+"4407"="Foreign";
+"4420"="Holiday";
+"4408"="Horror";
+"4409"="Indipendenti";
+"4425"="Japanese Cinema";
+"4426"="Jidaigeki";
+"4410"="Per tutta la famiglia";
+"4428"="Korean Cinema";
+"4421"="Made for TV";
+"4433"="MiddleEastern";
+"4423"="Music Documentaries";
+"4424"="Music Feature Films";
+"4411"="Musicals";
+"4432"="Indiani";
+"4412"="Sentimentale";
+"4429"="Russi";
+"4413"="Fantascienza e fantasy";
+"4414"="Corti";
+"4415"="Special Interest";
+"4417"="Sport";
+"4416"="Thriller";
+"4427"="Tokusatsu";
+"4430"="Turchi";
+"4419"="Urban";
+"4418"="Western";
+
+//Book
+"topfreeebooks"="Top Gratuiti";
+"toppaidebooks"="Top Acquistati";
+
+"0000"="Tutti i generi";
+"9007"="Arte e intrattenimento";
+"9008"="Biografie e memorie";
+"9009"="Affari e finanze personali";
+"9010"="Bambini e ragazzi";
+"9026"="Comics e narrattiva a fumetti";
+"9027"="Computers e internet";
+"9028"="Cucina, gastronomia e vini";
+"9031"="Fiction e letteratura";
+"9025"="Salute fisica e mentale";
+"9015"="Storia";
+"9012"="Commedia";
+"9024"="Mode, tendenze e casa";
+"9032"="Misteri e gialli";
+"9002"="Non-fiction";
+"9030"="Educazione dei figli";
+"9034"="Politica e attualità";
+"9029"="Argomenti professionali/tecnici";
+"9033"="Riferimento";
+"9018"="Religione e spiritualità";
+"9003"="Romanzi rosa";
+"9020"="Fantascienza e fantasy";
+"9019"="Scienza e natura";
+"9035"="Sport e vita all'aperto";
+"9004"="Viaggi e avventura";
+
+//Music Videos
+"topmusicvideos"="Top videoclip";
+
+"000000"="Tutti i generi";
+"1620"="Alternativa";
+"1629"="Anime";
+"1685"="Big Band";
+"1602"="Blues";
+"1671"="Brasiliana";
+"1604"="Muisca per bambini";
+"1637"="Cinese";
+"1622"="Musica religiosa";
+"1605"="Classica";
+"1603"="Commedia";
+"1606"="Country";
+"1617"="Dance";
+"1631"="Disney";
+"1625"="Easy Listening";
+"1607"="Elettronica";
+"1628"="Enka";
+"1683"="Fitness e workout";
+"1632"="Pop francese";
+"1634"="Folk tedesco";
+"1633"="Pop tedesco";
+"1618"="Hip-Hop/Rap";
+"1608"="Muisca per le feste";
+"1690"="Indiana";
+"1684"="Strumentale";
+"1627"="J-Pop";
+"1611"="Jazz";
+"1686"="K-Pop";
+"1687"="Karaoke";
+"1630"="Kayokyoku";
+"1648"="Coreano";
+"1612"="Latina";
+"1613"="New Age";
+"1609"="Opera";
+"1626"="Podcasts";
+"1614"="Pop";
+"1615"="R&B/Soul";
+"1624"="Reggae";
+"1621"="Rock";
+"1610"="Cantautore";
+"1616"="Colonne sonore";
+"1689"="Parlato";
+"1623"="Musica sinfonico-vocale";
+"1619"="World";
+
